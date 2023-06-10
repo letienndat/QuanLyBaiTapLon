@@ -1,0 +1,8 @@
+TaiKhoan: tenTK, matKhau
+NguoiDung (Cha): ma, hoTen, tenTK
+SinhVien (Con1): 
+GiangVien (Con2): 
+HocPhan: maHP, tenHP, tinChi, nam
+Lop: maLop, maGiangVien, siSo, maHocPhan, danhSachMaSV
+DeTai: maDeTai, tenDeTai, goiYThucHien, ghiChu
+Nhom: soNhom, danhSachMaSV, maDeTai, maLop, linkDeTai, diem, ghiChu, soThanhVien
