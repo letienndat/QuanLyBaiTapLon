@@ -22,7 +22,7 @@ public class ThongTinHocPhan extends JDialog {
     private JLabel labelNamHoc;
     private JLabel labelHocPhan;
     private JScrollPane scrollPaneThongTinLopHocPhan;
-    private JButton buttonGiaoDeTai;
+    private JButton buttonQuanLyNhom;
     private JButton buttonChamDeTai;
     private JTable tableThongTinLopHocPhan;
     private DefaultTableModel defaultTableModel;
@@ -51,8 +51,8 @@ public class ThongTinHocPhan extends JDialog {
     }
 
     private void init() {
-        buttonGiaoDeTai.setFocusPainted(false);
-        buttonGiaoDeTai.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        buttonQuanLyNhom.setFocusPainted(false);
+        buttonQuanLyNhom.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 
         buttonChamDeTai.setFocusPainted(false);
         buttonChamDeTai.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -94,7 +94,7 @@ public class ThongTinHocPhan extends JDialog {
             }
         });
 
-        buttonGiaoDeTai.addActionListener(e -> {
+        buttonQuanLyNhom.addActionListener(e -> {
             if (selected) {
                 try {
                     new GiaoDeTai(lopSelected).setVisible(true);

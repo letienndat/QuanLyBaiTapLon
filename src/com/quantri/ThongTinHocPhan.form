@@ -38,14 +38,14 @@
         <border type="none"/>
         <children/>
       </scrollpane>
-      <component id="21c49" class="javax.swing.JButton" binding="buttonGiaoDeTai">
+      <component id="21c49" class="javax.swing.JButton" binding="buttonQuanLyNhom">
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-30431"/>
           <font name="Leelawadee UI" size="14" style="0"/>
-          <text value="Giao Đề Tài"/>
+          <text value="Quản Lý Nhóm"/>
         </properties>
       </component>
       <component id="94440" class="javax.swing.JButton" binding="buttonChamDeTai">

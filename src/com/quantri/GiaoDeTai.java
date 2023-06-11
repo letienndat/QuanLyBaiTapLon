@@ -22,7 +22,7 @@ public class GiaoDeTai extends JDialog {
     private JScrollPane scrollPaneGiaoDeTai;
     private JButton buttonQuanLyBTL;
     private JButton buttonChiaNhom;
-    private JButton buttonChonDeTai;
+    private JButton buttonGiaoDeTai;
     private JButton buttonLamMoi;
     private JTable tableGiaoDeTai;
     private DefaultTableModel defaultTableModel;
@@ -59,8 +59,8 @@ public class GiaoDeTai extends JDialog {
         buttonChiaNhom.setFocusPainted(false);
         buttonChiaNhom.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 
-        buttonChonDeTai.setFocusPainted(false);
-        buttonChonDeTai.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        buttonGiaoDeTai.setFocusPainted(false);
+        buttonGiaoDeTai.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 
         buttonLamMoi.setFocusPainted(false);
         buttonLamMoi.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -129,7 +129,7 @@ public class GiaoDeTai extends JDialog {
             }
         });
 
-        buttonChonDeTai.addActionListener(e -> {
+        buttonGiaoDeTai.addActionListener(e -> {
             if (selected) {
                 try {
                     new ChonDeTai(nhomSelected.getSoNhom()).setVisible(true);
