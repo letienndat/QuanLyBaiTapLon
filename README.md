@@ -21,3 +21,8 @@
     
     Chú thích: Có 30 tài khoản người dùng (thay thế số 1 ở tên đăng nhập và mật khẩu thành số tương ứng từ 1 đến 30)
 ```
+### Hình ảnh chương trình
+<img src="/image_readme/1.PNG">
+<img src="/image_readme/2.PNG">
+
+## Goodluck!
